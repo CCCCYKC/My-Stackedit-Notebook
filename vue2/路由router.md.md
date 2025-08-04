@@ -103,6 +103,13 @@ const routes = [
 ## 6. 动态路由匹配
 动态路由允许你在路由的路径中包含动态段，使用冒号（`:`）来定义动态路由参数。
 >动态路由和VueX的关系
+
+## 7. `this.$route`
+### （1）`this.$route.matched`
+**返回一个数组，包含当前路由的父级路由**
+eg：当前路由为 `/produce/list`，则返回的数组为 `[{''},{'/prodece'},{'/prodece/list'}]` 
+### （2）`this.$route.path`：返回当前的路由
+### （3）`this.$router.push("/produce/addProduct");`跳转至目标路由
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM4MjUxNzExXX0=
+eyJoaXN0b3J5IjpbNDQxNjIzODUzXX0=
 -->
