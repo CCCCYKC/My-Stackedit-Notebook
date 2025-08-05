@@ -206,12 +206,14 @@ export default defineConfig({
 import AutoImport from 'unplugin-auto-import/vite'
 export default defineConfig({
   plugins: [
-    AutoImport({ /* options */ }),
+    AutoImport({
+	    imports: ['vue', 'vue-router', 'pinia']
+    }),
   ],
 })
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTExNzgxNzY3LC03MjgzMzk0NTMsMTYyOD
-E5NTExMiwtMTczOTY5ODE4NiwtMjAyOTczMTU4OSwtNTIyMDUx
-MDgxLDQwNDM4NTM1MF19
+eyJoaXN0b3J5IjpbMTM5NTY3NzAyMiwtNzI4MzM5NDUzLDE2Mj
+gxOTUxMTIsLTE3Mzk2OTgxODYsLTIwMjk3MzE1ODksLTUyMjA1
+MTA4MSw0MDQzODUzNTBdfQ==
 -->
