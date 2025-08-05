@@ -164,6 +164,8 @@ const  counter  =  useCounterStore();
 >当组件过多时，可以根据页面使用的组件自己按需引用
 
 1. `npm i unplugin-vue-components -D` 安装
+2. 修g
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMjA1MTA4MSw0MDQzODUzNTBdfQ==
+eyJoaXN0b3J5IjpbMjEyODEzNzE0LC01MjIwNTEwODEsNDA0Mz
+g1MzUwXX0=
 -->
