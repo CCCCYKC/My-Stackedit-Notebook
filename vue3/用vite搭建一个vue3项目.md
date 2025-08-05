@@ -179,6 +179,8 @@ export  default  defineConfig({
 ---
 4. 对于外部组件库，例如 `Element UI`、`Element Plus` 这些，也可以做到按需引入
 	- 改写 `vite.config.js` 文件为
+	-  安装 element plus 组件库 `npm i element-plus -D`
+	- 然后就可以直接在文件里面使用组件了
 ```js
 import { defineConfig } from  "vite";
 import  Vue  from  "@vitejs/plugin-vue"
@@ -193,11 +195,10 @@ export default defineConfig({
 		resolvers:[ElementPlusResolver,VantResolver]
 	})]
 })
-	```
-	- 安装 element plus 组件库 `npm i element-plus -D`
-	- 然后
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTY0OTgxMjcsMTYyODE5NTExMiwtMT
-czOTY5ODE4NiwtMjAyOTczMTU4OSwtNTIyMDUxMDgxLDQwNDM4
-NTM1MF19
+eyJoaXN0b3J5IjpbLTcyODMzOTQ1MywxNjI4MTk1MTEyLC0xNz
+M5Njk4MTg2LC0yMDI5NzMxNTg5LC01MjIwNTEwODEsNDA0Mzg1
+MzUwXX0=
 -->
