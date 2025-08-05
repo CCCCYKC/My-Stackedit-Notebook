@@ -197,12 +197,21 @@ export default defineConfig({
 })
 ```
 ## 六、安装 `unplugin-auto-import` 插件
-> 可以省去 Vue、react、vue 的一些方法、生命周期的引入。例如：
+> 可以省去 Vue、react、vue-router、pinia 的一些方法、生命周期的引入。例如：
 > - import { computed, ref } from 'vue'
 
 1. 安装 `npm i -D unplugin-auto-import`
+2. 在 `vite.config.js` 添加：
+```js
+import AutoImport from 'unplugin-auto-import/vite'
+export default defineConfig({
+  plugins: [
+    AutoImport({ /* options */ }),
+  ],
+})
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODY1NzI4MTYsLTcyODMzOTQ1MywxNj
-I4MTk1MTEyLC0xNzM5Njk4MTg2LC0yMDI5NzMxNTg5LC01MjIw
-NTEwODEsNDA0Mzg1MzUwXX0=
+eyJoaXN0b3J5IjpbNTExNzgxNzY3LC03MjgzMzk0NTMsMTYyOD
+E5NTExMiwtMTczOTY5ODE4NiwtMjAyOTczMTU4OSwtNTIyMDUx
+MDgxLDQwNDM4NTM1MF19
 -->
