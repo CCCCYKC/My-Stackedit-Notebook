@@ -162,6 +162,7 @@ const  counter  =  useCounterStore();
 
 ## 五、安装 unplugin-vue-components 插件
 >当组件过多时，可以根据页面使用的组件自己按需引用
+>自定义组件、外部组件库、
 
 1. `npm i unplugin-vue-components -D` 安装
 2. 修改文件 `vite.config.js` 为
@@ -175,7 +176,9 @@ export  default  defineConfig({
 })
 ```
 3. 使用该插件后，使用自定义组件时可以不用 import 导入，直接使用即可
+---
+4. 对于外部组件库，例如 `Element UI`、`Element Plus` 这些，也可以做到按需yi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mzk2OTgxODYsLTIwMjk3MzE1ODksLT
-UyMjA1MTA4MSw0MDQzODUzNTBdfQ==
+eyJoaXN0b3J5IjpbMjQ3MjI4OTAxLC0xNzM5Njk4MTg2LC0yMD
+I5NzMxNTg5LC01MjIwNTEwODEsNDA0Mzg1MzUwXX0=
 -->
