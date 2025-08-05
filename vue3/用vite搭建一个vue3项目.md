@@ -164,7 +164,7 @@ const  counter  =  useCounterStore();
 >当组件过多时，可以根据页面使用的组件自己按需引用
 
 1. `npm i unplugin-vue-components -D` 安装
-2. 修改文件 `` 为
+2. 修改文件 `vite.config.js` 为
 ```js
 import { defineConfig } from  "vite";
 import  Vue  from  "@vitejs/plugin-vue"
@@ -174,7 +174,8 @@ export  default  defineConfig({
 	plugins:[Vue(),Components()]
 })
 ```
+3. 使用该插件后，使用自定义组件时可以不用 import 导入，直接使用即可
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjk3MzE1ODksLTUyMjA1MTA4MSw0MD
-QzODUzNTBdfQ==
+eyJoaXN0b3J5IjpbLTE3Mzk2OTgxODYsLTIwMjk3MzE1ODksLT
+UyMjA1MTA4MSw0MDQzODUzNTBdfQ==
 -->
