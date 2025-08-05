@@ -135,8 +135,8 @@ export const useCounterStore = defineStore('counter', {
     doubleCount: (state) => state.count * 2,
   },
   actions: {
-    increment(state) {
-      state.count++
+    increment() {
+      this.count++
     },
   },
 })
@@ -163,5 +163,5 @@ const  counter  =  useCounterStore();
 ## 五、安装 unplugin-vue-components 插件
 >当组件过多时，可以根据页面使用的组件自己按需引用
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1Nzg2MDE3Nyw0MDQzODUzNTBdfQ==
+eyJoaXN0b3J5IjpbMjA3ODU0NTg0OSw0MDQzODUzNTBdfQ==
 -->
