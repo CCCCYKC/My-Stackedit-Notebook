@@ -160,7 +160,7 @@ const  counter  =  useCounterStore();
 <style></style>
 ```
 
-## 五、安装 unplugin-vue-components 插件
+## 五、安装 `unplugin-vue-components` 插件
 >当组件过多时，可以根据页面使用的组件自己按需引用
 >自定义组件、外部组件库、
 
@@ -196,9 +196,9 @@ export default defineConfig({
 	})]
 })
 ```
-
+## 六、安装 `unplugin-auto-import` 插件
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDg4NjcwMzcsLTcyODMzOTQ1MywxNj
-I4MTk1MTEyLC0xNzM5Njk4MTg2LC0yMDI5NzMxNTg5LC01MjIw
-NTEwODEsNDA0Mzg1MzUwXX0=
+eyJoaXN0b3J5IjpbMTk2NTQ1OTU0MywtNzI4MzM5NDUzLDE2Mj
+gxOTUxMTIsLTE3Mzk2OTgxODYsLTIwMjk3MzE1ODksLTUyMjA1
+MTA4MSw0MDQzODUzNTBdfQ==
 -->
