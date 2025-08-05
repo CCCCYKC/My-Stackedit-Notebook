@@ -194,7 +194,10 @@ export default defineConfig({
 	})]
 })
 	```
+	- 安装 element plus 组件库 `npm i element-plus -D`
+	- 然后
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyODE5NTExMiwtMTczOTY5ODE4NiwtMj
-AyOTczMTU4OSwtNTIyMDUxMDgxLDQwNDM4NTM1MF19
+eyJoaXN0b3J5IjpbLTE3OTY0OTgxMjcsMTYyODE5NTExMiwtMT
+czOTY5ODE4NiwtMjAyOTczMTU4OSwtNTIyMDUxMDgxLDQwNDM4
+NTM1MF19
 -->
