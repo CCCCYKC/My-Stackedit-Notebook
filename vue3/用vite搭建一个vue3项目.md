@@ -177,8 +177,36 @@ export  default  defineConfig({
 ```
 3. 使用该插件后，使用自定义组件时可以不用 import 导入，直接使用即可
 ---
-4. 对于外部组件库，例如 `Element UI`、`Element Plus` 这些，也可以做到按需yi
+4. 对于外部组件库，例如 `Element UI`、`Element Plus` 这些，也可以做到按需引入
+	- 
+	```js
+	import { defineConfig } from  "vite";
+
+import  Vue  from  "@vitejs/plugin-vue"
+
+import  Components  from  'unplugin-vue-components/vite'
+
+import {
+
+ElementPlusResolver,
+
+VantResolver,
+
+} from  'unplugin-vue-components/resolvers'
+
+  
+
+export  default  defineConfig({
+
+plugins:[Vue(),Components({
+
+resolvers:[ElementPlusResolver,VantResolver]
+
+})]
+
+})
+	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ3MjI4OTAxLC0xNzM5Njk4MTg2LC0yMD
-I5NzMxNTg5LC01MjIwNTEwODEsNDA0Mzg1MzUwXX0=
+eyJoaXN0b3J5IjpbMTA4NDQ5Njk5OCwtMTczOTY5ODE4NiwtMj
+AyOTczMTU4OSwtNTIyMDUxMDgxLDQwNDM4NTM1MF19
 -->
