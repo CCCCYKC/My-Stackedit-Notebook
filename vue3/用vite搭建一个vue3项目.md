@@ -192,13 +192,13 @@ import {
 
 export default defineConfig({
 	plugins:[Vue(),Components({
-		resolvers:[ElementPlusResolver,VantResolver]
+		resolvers:[ElementPlusResolver(),VantResolver()]
 	})]
 })
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyODMzOTQ1MywxNjI4MTk1MTEyLC0xNz
-M5Njk4MTg2LC0yMDI5NzMxNTg5LC01MjIwNTEwODEsNDA0Mzg1
-MzUwXX0=
+eyJoaXN0b3J5IjpbLTEzMDg4NjcwMzcsLTcyODMzOTQ1MywxNj
+I4MTk1MTEyLC0xNzM5Njk4MTg2LC0yMDI5NzMxNTg5LC01MjIw
+NTEwODEsNDA0Mzg1MzUwXX0=
 -->
