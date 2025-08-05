@@ -197,8 +197,11 @@ export default defineConfig({
 })
 ```
 ## 六、安装 `unplugin-auto-import` 插件
+> 可以省去 Vue 的一些方法、生命周期的引入。例如：
+> - import { computed, ref } from 'vue'
+> - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NTQ1OTU0MywtNzI4MzM5NDUzLDE2Mj
-gxOTUxMTIsLTE3Mzk2OTgxODYsLTIwMjk3MzE1ODksLTUyMjA1
-MTA4MSw0MDQzODUzNTBdfQ==
+eyJoaXN0b3J5IjpbLTEzNjA0MzMyMTgsLTcyODMzOTQ1MywxNj
+I4MTk1MTEyLC0xNzM5Njk4MTg2LC0yMDI5NzMxNTg5LC01MjIw
+NTEwODEsNDA0Mzg1MzUwXX0=
 -->
