@@ -1,5 +1,6 @@
 # 用vite搭建一个vue3项目
 >[开始 | Vite 官方中文文档](https://cn.vitejs.dev/guide/#scaffolding-your-first-vite-project)
+>
 
 ## 一、用命令行搭建
 1. 搭建项目框架：`npm create vite@latest`
@@ -213,7 +214,7 @@ export default defineConfig({
 })
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NTY3NzAyMiwtNzI4MzM5NDUzLDE2Mj
-gxOTUxMTIsLTE3Mzk2OTgxODYsLTIwMjk3MzE1ODksLTUyMjA1
-MTA4MSw0MDQzODUzNTBdfQ==
+eyJoaXN0b3J5IjpbMTY1ODAzOTI3OCwxMzk1Njc3MDIyLC03Mj
+gzMzk0NTMsMTYyODE5NTExMiwtMTczOTY5ODE4NiwtMjAyOTcz
+MTU4OSwtNTIyMDUxMDgxLDQwNDM4NTM1MF19
 -->
