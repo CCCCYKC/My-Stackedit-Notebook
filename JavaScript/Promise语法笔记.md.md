@@ -16,6 +16,9 @@
   1.then( )
   2.catch( )
   3.finally( )
+   -   多个 `.then()` 是按顺序执行的，不会并发执行
+-   每个 `.then()` 的回调函数会在前一个回调函数执行完成后才开始执行。   
+-   如果某个 `.then()` 的回调函数抛出错误，会跳转到最近的 `.catch()` 方法
 
  ## 3.Promise的静态方法
 
@@ -78,5 +81,5 @@ getUser(123)
   **then** 是向下顺序执行的，**return** 也是不能中断。
   可以使用 **throw** 来跳转至 **catch** 实现中断。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MjA1NDE3Nl19
+eyJoaXN0b3J5IjpbMTcxOTk4NzQxOV19
 -->
