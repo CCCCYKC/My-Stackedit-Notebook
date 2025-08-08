@@ -30,7 +30,14 @@ git remote add origin <repository-url>
 
 ## 三、怎么克隆仓库的项目到本地
 > 还可以克隆特定上传节点的
-### 1. **找到提交的哈希值**
+
+### 1. 克隆整个仓库
+```git
+git clone <repository-url>
+```
+### 2. 
+### 3. 找到提交的哈希值 
+插件 `git graph` 可以找到
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI2MzI3OTQ5LC05NzI0NTI5NV19
+eyJoaXN0b3J5IjpbMTQxMDQ0NTkzNCwtOTcyNDUyOTVdfQ==
 -->
