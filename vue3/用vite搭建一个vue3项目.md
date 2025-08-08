@@ -20,6 +20,7 @@
 },
 ```
 4. 若启动失败，可能是因为 `node` 版本过低，使用 `nvm use 版本号` 选择版本较高的 `node` 即可
+5. 我卸载了 `npm uninstall vite-plugin-vue-devtools`
 
 ## 二、从头搭建项目
 1. `npm init -y` 构建一个简单的包信息，即 `package.json` 文件.
@@ -214,7 +215,8 @@ export default defineConfig({
 })
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1ODAzOTI3OCwxMzk1Njc3MDIyLC03Mj
-gzMzk0NTMsMTYyODE5NTExMiwtMTczOTY5ODE4NiwtMjAyOTcz
-MTU4OSwtNTIyMDUxMDgxLDQwNDM4NTM1MF19
+eyJoaXN0b3J5IjpbMTUxMzgzNjgzNiwxNjU4MDM5Mjc4LDEzOT
+U2NzcwMjIsLTcyODMzOTQ1MywxNjI4MTk1MTEyLC0xNzM5Njk4
+MTg2LC0yMDI5NzMxNTg5LC01MjIwNTEwODEsNDA0Mzg1MzUwXX
+0=
 -->
