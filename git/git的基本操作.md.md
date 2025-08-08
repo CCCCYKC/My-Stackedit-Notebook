@@ -23,7 +23,14 @@
 cd /path/to/your/project  # 进入你的项目目录
 git init  # 初始化为Git仓库
 ```
-### 2. 初始化本地仓库
+### 2. 添加仓库地址
+```git
+git remote add origin <repository-url>
+```
+
+## 三、怎么克隆仓库的项目到本地
+> 还可以克隆特定上传节点的
+### 1. **找到提交的哈希值**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDI4OTk2NzIsLTk3MjQ1Mjk1XX0=
+eyJoaXN0b3J5IjpbNTI2MzI3OTQ5LC05NzI0NTI5NV19
 -->
