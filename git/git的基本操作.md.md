@@ -35,9 +35,17 @@ git remote add origin <repository-url>
 ```git
 git clone <repository-url>
 ```
-### 2. 
-### 3. 找到提交的哈希值 
+### 2. 找到提交的哈希值 
 插件 `git graph` 可以找到
+
+### 3. 切换到特定的提交
+先进入到仓库目录，然后使用 `git checkout` 来切换到想要的节点
+```git
+cd <repository-directory>
+git checkout 6c5cfd5
+```
+
+￥
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMDQ0NTkzNCwtOTcyNDUyOTVdfQ==
+eyJoaXN0b3J5IjpbLTExNTkwNjc5MDksLTk3MjQ1Mjk1XX0=
 -->
