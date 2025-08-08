@@ -14,6 +14,9 @@ PS：
 
 
 ### 2. 引入element组件库
+>-   **Element UI**：适合基于 Vue 2 的项目，尤其是对移动端适配要求不高的桌面端应用。
+> -   **Element Plus**：适合基于 Vue 3 的项目，尤其是需要高性能、移动端适配和现代化设计的应用
+
 #### （2）``vue add element``
 - **全部引用**：选择第二个
 - **按需引入**：选择最后一个`Import in demand`
@@ -143,5 +146,5 @@ body{
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTgzNDEwOTZdfQ==
+eyJoaXN0b3J5IjpbLTE2NDA2Nzg2NzldfQ==
 -->
