@@ -45,7 +45,11 @@ cd <repository-directory>
 git checkout 6c5cfd5
 ```
 
-￥
+### 4. 建立新的分支（可选）
+`new-branch-name` 为新分支的名字
+```git
+git checkout -b new-branch-name
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTkwNjc5MDksLTk3MjQ1Mjk1XX0=
+eyJoaXN0b3J5IjpbLTMwOTM0ODQxMiwtOTcyNDUyOTVdfQ==
 -->
