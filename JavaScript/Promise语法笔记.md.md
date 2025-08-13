@@ -24,6 +24,7 @@
 
  ### （1）Promise.all( )
 当 **Promise.all** 中的所有 **promise** 完成后，或者有一个失败时，会执行回调函数
+`promise1, promise2, promise3` 就是三个异步函数，但是不包含 async 和 await 的
 ```javascript
 Promise.all([promise1, promise2, promise3])
   .then((results) => {
@@ -81,5 +82,5 @@ getUser(123)
   **then** 是向下顺序执行的，**return** 也是不能中断。
   可以使用 **throw** 来跳转至 **catch** 实现中断。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxOTk4NzQxOV19
+eyJoaXN0b3J5IjpbOTYyOTkzOTcxXX0=
 -->
