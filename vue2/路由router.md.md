@@ -105,11 +105,11 @@ const routes = [
 >动态路由和VueX的关系
 
 ## 7. `this.$route`
-### （1）`this.$route.matched`
-**返回一个数组，包含当前路由的父级路由**
-eg：当前路由为 `/produce/list`，则返回的数组为 `[{''},{'/prodece'},{'/prodece/list'}]` 
+### （1）`this.$route.matched`：返回一个数组，包含当前路由的父级路由
+当前路由为 `/produce/list`，则返回的数组为 `[{''},{'/prodece'},{'/prodece/list'}]` 
 ### （2）`this.$route.path`：返回当前的路由
-### （3）`this.$router.push("/produce/addProduct");`跳转至目标路由
+### （3）`this.$router.push("/produce/addProduct");`：跳转至目标路由
+### （4）`this.$router.replace("/produce/addProduct");`：也是跳转至目标路由，但是会删除上一个页面的浏览器记录，从而点击上一页无法返回（常用于登录跳转后）
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQxNjIzODUzXX0=
+eyJoaXN0b3J5IjpbLTcyNTkzMzQyMV19
 -->
