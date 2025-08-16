@@ -16,6 +16,8 @@
 #### （3）关联远程仓库
 - 用 http 网址进行关联：`git remote add origin 正确的仓库URL`
 - 使用点击式操作来提交、推送、上传分支
+### 3.获取仓库的用户名...
+
 
 ## 二、怎么将项目上传到建好的仓库里面
 ### 1. 初始化本地仓库
@@ -51,6 +53,6 @@ git checkout 6c5cfd5
 git checkout -b new-branch-name
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ1MTU4NzQsLTMwOTM0ODQxMiwtOTcyND
-UyOTVdfQ==
+eyJoaXN0b3J5IjpbLTExMDY2MTI4NDMsLTMwOTM0ODQxMiwtOT
+cyNDUyOTVdfQ==
 -->
