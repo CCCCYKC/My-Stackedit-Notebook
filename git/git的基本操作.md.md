@@ -52,7 +52,22 @@ git checkout 6c5cfd5
 ```git
 git checkout -b new-branch-name
 ```
+
+## 四、创建、合并、删除分支
+### 1.创建分支
+`git branch <branch-name>`：创建一个新分支，但不会切换到新分支里面
+`git checkout -b <branch-name>`：创建并切换新分支
+`git branch`：查看虽有分支
+
+### 2.合并分支
+`git merge <branch-name>`：当前在A分支，可输入分支名将其他分支合并到A分支里面
+若有冲突，则手动解决
+
+### 3.删除分支
+`git branch -d <branch-name>`：若分支已合并，删除分支
+`git branch -D <branch-name>`：若分支未合并，强制删除分支
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDY2MTI4NDMsLTMwOTM0ODQxMiwtOT
-cyNDUyOTVdfQ==
+eyJoaXN0b3J5IjpbNzUxNTYzNzA5LC0zMDkzNDg0MTIsLTk3Mj
+Q1Mjk1XX0=
 -->
