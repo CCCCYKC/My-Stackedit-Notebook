@@ -1,4 +1,10 @@
  # Promise用法
+ ### 三个状态：
+ -   **Pending（进行中）**：初始状态，既不是成功，也不是失败状态。
+    
+-   **Fulfilled（已成功）**：操作成功完成。
+    
+-   **Rejected（已失败）**：操作失败。
   ## 1.Promise是创建promise对象的关键字
  ```javascript
 	 const myPromise = new Promise((resolve, reject) =>{	//异步操作代码
@@ -38,7 +44,7 @@ Promise.all([promise1, promise2, promise3])
 ```
  ### （2）Promise.race( )
 返回最先完成（无论失败或者成功）的 **Promise** 的结果
-```javascript
+```js
 Promise.race([promise1, promise2, promise3])
 	.then((result) => {
 		//最先完成的Promise的结果
@@ -76,11 +82,11 @@ getUser(123)
 
 ## 5.注意事项
 ### （1）then catch finally块是否都可以多次调用
-  **then** 和 **finally** 块都可以多次调用，**then**  和 **finally** 链都是向下顺序执行关系。
-  **catch** 只会执行第一个
+  `then ` 和 `finally` 块都可以多次调用，`then`  和 `finally` 链都是**向下顺序执行关系。**
+  `catch` 只会执行第一个
   ### （2）then 块如何中断
-  **then** 是向下顺序执行的，**return** 也是不能中断。
-  可以使用 **throw** 来跳转至 **catch** 实现中断。
+  `then` 是向下顺序执行的，`return` 也是不能中断。
+  可以使用 `throw` 来跳转至 `catch` 实现中断。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYyOTkzOTcxXX0=
+eyJoaXN0b3J5IjpbMTUzODg2ODQ0NF19
 -->
